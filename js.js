@@ -17,6 +17,7 @@ const smartphone={
     price:8000
 };
 delete smartphone.model;
+console.log(smartphone)
 
 const book={
     title:"Learn javascript",
@@ -24,6 +25,7 @@ const book={
     pages:400
 };
 book.generation="programming"
+console.log(book)
 
 var arr=[10,20,["apple","banana"],["cat",["dog","elephant"],"fish"],"grape"]
 console.log(arr[3][2]);
